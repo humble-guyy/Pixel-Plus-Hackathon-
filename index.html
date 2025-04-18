@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PayPal is the faster, safer way to send and receive money, make an online payment, or set up a merchant account. Join millions of users worldwide who trust PayPal.">
     <title>Pay, Send and Save Money with PayPal | PayPal US</title>
-    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSIjMDAzMDg3IiBkPSJNNTAsMTAwQzIyLjQsMTAwLDAsNzcuNiwwLDUwUzIyLjQsMCw1MCwwczUwLDIyLjQsNTAsNTBTNzcuNiwxMDAsNTAsMTAweiIvPjxwYXRoIGZpbGw9IiMwMDlDREUiIGQ9Ik01Ni40LDI2LjRjMC01LjUtNC40LTkuOS05LjktOS45cy05LjksNC40LTkuOSw5LjljMCw1LjUsNS4zLDEwLjcsMTAuOCwxMC43YzIuOCwwLDUuNC0xLjEsNy40LTMuMkM1Ny4yLDMxLjYsNTYuNCwyOS4yLDU2LjQsMjYuNHoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzkuMSw1NS4xYzAsMCwzLjItMS4zLDMuOS0xLjVjNC43LTEuOSw5LjgtMy4yLDE0LjgtNC4yYzMuMi0wLjcsNi40LTEuMSw5LjYtMS41YzEuNi0wLjIsMy4yLTAuNCw0LjctMC41YzEuNi0wLjIsMy4yLTAuMyw0LjctMC41YzAsMCwwLDAsLjEsMGMwLjMsMCwwLjUsMC4yLDAuNSwwLjVjMCwwLjEsMCwwLjMtMC4xLDAuM2MtMC43LDEuMS0xLjUsMi4yLTIuNCwzLjJjLTEuOSwyLjEtNC4xLDMuOS02LjUsNS4zYy0yLjgsMS42LTYsMS40LTktMC4zYy0yLjYsMS42LTYuMSwxLjYtOC43LDBjLTIuNC0xLjUtNC42LTMuMy02LjQtNS4zQzQyLjUsNDkuNyw0MQs1Mi43LDM5LjEsNTUuMXoiLz48L3N2Zz4=">
+    <link rel="icon" href="https://www.paypalobjects.com/webstatic/icon/favicon.ico">
     <style>
         /* Font definitions */
         @font-face {
@@ -97,7 +98,7 @@
         }
 
         .logo {
-            width: 60px;
+            width: 120px;
             height: auto;
         }
 
@@ -310,10 +311,11 @@
         }
 
         .subtitle {
-            font-size: 1.25rem;
-            color: #001c64;
+            font-size: 1rem;
+            color: #0070ba;
             margin-bottom: 20px;
             font-weight: 700;
+            letter-spacing: 1px;
         }
 
         .hero-title {
@@ -321,6 +323,22 @@
             font-weight: 700;
             color: #001c64;
             line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        
+        .hero-description {
+            font-size: 1.25rem;
+            color: #2c2e2f;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
             margin-bottom: 30px;
         }
 
@@ -337,7 +355,7 @@
         }
 
         .btn-primary {
-            background-color: #001c64;
+            background-color: #0070ba;
             color: #fff;
             font-weight: 700;
             padding: 12px 30px;
@@ -347,7 +365,22 @@
         }
 
         .btn-primary:hover {
-            background-color: #0070ba;
+            background-color: #005ea6;
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: #0070ba;
+            font-weight: 700;
+            padding: 12px 30px;
+            border-radius: 24px;
+            display: inline-block;
+            transition: all 0.3s;
+            border: 2px solid #0070ba;
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(0, 112, 186, 0.1);
         }
 
         @media (max-width: 768px) {
@@ -484,6 +517,12 @@
             flex: 1;
             max-width: 500px;
         }
+        
+        .crypto-app-image {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
 
         .feature-tag {
             display: inline-block;
@@ -607,7 +646,7 @@
         }
 
         .footer-logo {
-            width: 40px;
+            width: 100px;
             height: auto;
             margin-right: 30px;
         }
@@ -664,11 +703,7 @@
         <div class="container header-container">
             <!-- Logo -->
             <a href="#" class="logo-container">
-                <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                    <path fill="#001c64" d="M32.6,7.9c0.2,1.1,0,2.3-0.5,3.5c-1,2.3-3.2,3.8-5.7,3.8h-5.6c-0.4,0-0.7,0.3-0.8,0.7l-2.4,15.3c0,0.3,0,0.5,0.1,0.7 c0.1,0.2,0.4,0.3,0.6,0.3h4.3c0.3,0,0.6-0.2,0.7-0.5l0.1-0.3l1-6.6l0.1-0.4c0.1-0.3,0.4-0.5,0.7-0.5H27c3.2,0,5.7-1.3,6.4-5 c0.3-1.5,0.1-2.8-0.6-3.7C32.8,8.1,32.7,8,32.6,7.9L32.6,7.9z"/>
-                    <path fill="#0070e0" d="M36.7,8c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.3-0.2-0.4-0.3c-0.6-0.3-1.3-0.5-2-0.5h-7.6c-0.2,0-0.3,0.1-0.5,0.2 c-0.2,0.1-0.3,0.3-0.3,0.5l-1.6,10.1l0,0.1c0.1-0.3,0.3-0.6,0.7-0.6h4.6c4.2,0,7.5-1.7,8.4-6.6c0-0.1,0-0.3,0.1-0.4 c-0.2-0.1-0.3-0.2-0.5-0.3C37,9.5,36.8,8.7,36.7,8z"/>
-                    <path fill="#003087" d="M19.6,8.4c0.1-0.3,0.3-0.6,0.6-0.7c0.1-0.1,0.3-0.1,0.5-0.1h7.6c0.8,0,1.5,0.2,2,0.5c0.1,0.1,0.3,0.2,0.4,0.3 c0.1,0.1,0.2,0.2,0.3,0.3c0.2,0.7,0.3,1.5,0.2,2.3c-1,4.9-4.2,6.6-8.4,6.6h-4.6c-0.3,0-0.6,0.2-0.7,0.6l-1.8,11.3 c-0.1,0.3,0.2,0.7,0.5,0.7h3.4c0.4,0,0.8-0.3,0.9-0.7l1.2-7.5l0,0L19.6,8.4z"/>
-                </svg>
+                <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal Logo" class="logo">
             </a>
             
             <!-- Navigation -->
@@ -766,11 +801,7 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu">
         <div class="mobile-menu-header">
-            <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 48 48">
-                <path fill="#001c64" d="M32.6,7.9c0.2,1.1,0,2.3-0.5,3.5c-1,2.3-3.2,3.8-5.7,3.8h-5.6c-0.4,0-0.7,0.3-0.8,0.7l-2.4,15.3c0,0.3,0,0.5,0.1,0.7 c0.1,0.2,0.4,0.3,0.6,0.3h4.3c0.3,0,0.6-0.2,0.7-0.5l0.1-0.3l1-6.6l0.1-0.4c0.1-0.3,0.4-0.5,0.7-0.5H27c3.2,0,5.7-1.3,6.4-5 c0.3-1.5,0.1-2.8-0.6-3.7C32.8,8.1,32.7,8,32.6,7.9L32.6,7.9z"/>
-                <path fill="#0070e0" d="M36.7,8c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.3-0.2-0.4-0.3c-0.6-0.3-1.3-0.5-2-0.5h-7.6c-0.2,0-0.3,0.1-0.5,0.2 c-0.2,0.1-0.3,0.3-0.3,0.5l-1.6,10.1l0,0.1c0.1-0.3,0.3-0.6,0.7-0.6h4.6c4.2,0,7.5-1.7,8.4-6.6c0-0.1,0-0.3,0.1-0.4 c-0.2-0.1-0.3-0.2-0.5-0.3C37,9.5,36.8,8.7,36.7,8z"/>
-                <path fill="#003087" d="M19.6,8.4c0.1-0.3,0.3-0.6,0.6-0.7c0.1-0.1,0.3-0.1,0.5-0.1h7.6c0.8,0,1.5,0.2,2,0.5c0.1,0.1,0.3,0.2,0.4,0.3 c0.1,0.1,0.2,0.2,0.3,0.3c0.2,0.7,0.3,1.5,0.2,2.3c-1,4.9-4.2,6.6-8.4,6.6h-4.6c-0.3,0-0.6,0.2-0.7,0.6l-1.8,11.3 c-0.1,0.3,0.2,0.7,0.5,0.7h3.4c0.4,0,0.8-0.3,0.9-0.7l1.2-7.5l0,0L19.6,8.4z"/>
-            </svg>
+            <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg" alt="PayPal Logo" class="logo" width="40" height="40">
             <div class="mobile-close">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -838,12 +869,16 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h4 class="subtitle">The PayPal App</h4>
-                <h1 class="hero-title">Pay easy, fast, and secure.</h1>
-                <a href="#" class="btn btn-primary">Get the App</a>
+                <h4 class="subtitle">THE PAYPAL APP</h4>
+                <h1 class="hero-title">The simpler way to send and receive money</h1>
+                <p class="hero-description">Pay friends and family, shop online, and track all your payments in one place.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Download the App</a>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
             </div>
             <div class="hero-image">
-                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIj48c3R5bGU+LnN0MHtmaWxsOiNmNWY3ZmE7fSAuc3Qxe2ZpbGw6I2ZmZjt9IC5zdDJ7ZmlsbDojMDAxYzY0O30gLnN0M3tmaWxsOiMwMDcwYmE7fSAuc3Q0e2ZpbGw6I2U1ZTllZjt9PC9zdHlsZT48cmVjdCBjbGFzcz0ic3QwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgcng9IjE1Ii8+PHJlY3QgY2xhc3M9InN0MSIgeD0iMjUwIiB5PSI1MCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSI0MDAiIHJ4PSIyMCIvPjxyZWN0IGNsYXNzPSJzdDQiIHg9IjI3MCIgeT0iOTAiIHdpZHRoPSIyNjAiIGhlaWdodD0iMzAiIHJ4PSI1Ii8+PHJlY3QgY2xhc3M9InN0MiIgeD0iMjcwIiB5PSIxNDAiIHdpZHRoPSIxMjAiIGhlaWdodD0iNDAiIHJ4PSI1Ii8+PHJlY3QgY2xhc3M9InN0MyIgeD0iNDEwIiB5PSIxNDAiIHdpZHRoPSIxMjAiIGhlaWdodD0iNDAiIHJ4PSI1Ii8+PGNpcmNsZSBjbGFzcz0ic3QyIiBjeD0iMzAwIiBjeT0iMjMwIiByPSI0MCIvPjxyZWN0IGNsYXNzPSJzdDQiIHg9IjI3MCIgeT0iMjkwIiB3aWR0aD0iMjYwIiBoZWlnaHQ9IjIwIiByeD0iNSIvPjxyZWN0IGNsYXNzPSJzdDQiIHg9IjI3MCIgeT0iMzIwIiB3aWR0aD0iMjYwIiBoZWlnaHQ9IjIwIiByeD0iNSIvPjxyZWN0IGNsYXNzPSJzdDQiIHg9IjI3MCIgeT0iMzUwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjIwIiByeD0iNSIvPjxjaXJjbGUgY2xhc3M9InN0MyIgY3g9IjQyMCIgY3k9IjIzMCIgcj0iMjAiLz48L3N2Zz4=" alt="PayPal App on Mobile Device" class="hero-device">
+                <img src="https://www.paypalobjects.com/marketing/web/us/en/home/paypal-app-preview.png" alt="PayPal App on Mobile Device" class="hero-device">
             </div>
         </div>
     </section>
@@ -858,9 +893,7 @@
             <div class="payment-grid">
                 <div class="payment-card">
                     <div class="card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0070ba" width="48" height="48">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-                        </svg>
+                        <img src="https://www.paypalobjects.com/marketing/web/us/en/home/icon-send-receive-money.svg" alt="Send money icon" width="64" height="64">
                     </div>
                     <h3>Send and receive payments</h3>
                     <p>Send money to friends and family or request money from them.</p>
@@ -868,9 +901,7 @@
                 </div>
                 <div class="payment-card">
                     <div class="card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0070ba" width="48" height="48">
-                            <path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/>
-                        </svg>
+                        <img src="https://www.paypalobjects.com/marketing/web/us/en/home/icon-checkout.svg" alt="Shop icon" width="64" height="64">
                     </div>
                     <h3>Shop with confidence</h3>
                     <p>Check out securely with PayPal at millions of online stores.</p>
@@ -878,9 +909,7 @@
                 </div>
                 <div class="payment-card">
                     <div class="card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0070ba" width="48" height="48">
-                            <path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8z"/>
-                        </svg>
+                        <img src="https://www.paypalobjects.com/marketing/web/us/en/home/icon-pay-later.svg" alt="Pay later icon" width="64" height="64">
                     </div>
                     <h3>Pay later</h3>
                     <p>Enjoy the flexibility of buying now and paying over time.</p>
@@ -931,25 +960,7 @@
                     <a href="#" class="btn btn-primary">Start Trading</a>
                 </div>
                 <div class="crypto-image">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
-                        <style>
-                            .crypto-bg{fill:#f5f7fa;} 
-                            .crypto-card{fill:#fff;stroke:#e5e9ef;stroke-width:2;} 
-                            .crypto-accent{fill:#0070ba;} 
-                            .crypto-chart{fill:none;stroke:#0070ba;stroke-width:2;} 
-                            .crypto-text{fill:#001c64;} 
-                            .crypto-text-light{fill:#6c7378;}
-                        </style>
-                        <rect class="crypto-bg" width="400" height="300" rx="15"/>
-                        <rect class="crypto-card" x="50" y="50" width="300" height="200" rx="10"/>
-                        <circle class="crypto-accent" cx="100" cy="90" r="20"/>
-                        <text x="140" y="95" class="crypto-text" font-family="Arial" font-size="16" font-weight="bold">Bitcoin</text>
-                        <text x="140" y="115" class="crypto-text-light" font-family="Arial" font-size="12">BTC</text>
-                        <text x="260" y="95" class="crypto-text" font-family="Arial" font-size="16" font-weight="bold">$30,253.45</text>
-                        <text x="260" y="115" class="crypto-text-light" font-family="Arial" font-size="12">+2.4%</text>
-                        <polyline class="crypto-chart" points="70,180 120,150 170,160 220,120 270,140 320,100"/>
-                        <circle class="crypto-accent" cx="320" cy="100" r="4"/>
-                    </svg>
+                    <img src="https://www.paypalobjects.com/marketing/web/us/en/home/crypto-trading-screen.png" alt="PayPal Crypto Trading" class="crypto-app-image">
                 </div>
             </div>
         </div>
@@ -1001,11 +1012,7 @@
             </div>
             <div class="footer-bottom">
                 <div>
-                    <svg class="footer-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                        <path fill="#001c64" d="M32.6,7.9c0.2,1.1,0,2.3-0.5,3.5c-1,2.3-3.2,3.8-5.7,3.8h-5.6c-0.4,0-0.7,0.3-0.8,0.7l-2.4,15.3c0,0.3,0,0.5,0.1,0.7 c0.1,0.2,0.4,0.3,0.6,0.3h4.3c0.3,0,0.6-0.2,0.7-0.5l0.1-0.3l1-6.6l0.1-0.4c0.1-0.3,0.4-0.5,0.7-0.5H27c3.2,0,5.7-1.3,6.4-5 c0.3-1.5,0.1-2.8-0.6-3.7C32.8,8.1,32.7,8,32.6,7.9L32.6,7.9z"/>
-                        <path fill="#0070e0" d="M36.7,8c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.3-0.2-0.4-0.3c-0.6-0.3-1.3-0.5-2-0.5h-7.6c-0.2,0-0.3,0.1-0.5,0.2 c-0.2,0.1-0.3,0.3-0.3,0.5l-1.6,10.1l0,0.1c0.1-0.3,0.3-0.6,0.7-0.6h4.6c4.2,0,7.5-1.7,8.4-6.6c0-0.1,0-0.3,0.1-0.4 c-0.2-0.1-0.3-0.2-0.5-0.3C37,9.5,36.8,8.7,36.7,8z"/>
-                        <path fill="#003087" d="M19.6,8.4c0.1-0.3,0.3-0.6,0.6-0.7c0.1-0.1,0.3-0.1,0.5-0.1h7.6c0.8,0,1.5,0.2,2,0.5c0.1,0.1,0.3,0.2,0.4,0.3 c0.1,0.1,0.2,0.2,0.3,0.3c0.2,0.7,0.3,1.5,0.2,2.3c-1,4.9-4.2,6.6-8.4,6.6h-4.6c-0.3,0-0.6,0.2-0.7,0.6l-1.8,11.3 c-0.1,0.3,0.2,0.7,0.5,0.7h3.4c0.4,0,0.8-0.3,0.9-0.7l1.2-7.5l0,0L19.6,8.4z"/>
-                    </svg>
+                    <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-color.svg" alt="PayPal Logo" class="footer-logo">
                 </div>
                 <div class="footer-legal">
                     <a href="#" class="footer-legal-link">Privacy</a>
@@ -1014,7 +1021,7 @@
                     <a href="#" class="footer-legal-link">Worldwide</a>
                 </div>
                 <div class="footer-copyright">
-                    &copy; 1999-2023 PayPal, Inc. All rights reserved.
+                    &copy; 1999-2024 PayPal, Inc. All rights reserved.
                 </div>
             </div>
         </div>
